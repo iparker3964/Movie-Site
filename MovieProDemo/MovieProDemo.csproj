@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <UserSecretsId>aspnet-MovieProDemo-C4B92584-B09E-4DBB-9222-AADB415A3CA3</UserSecretsId>
+	<BaseOutputPath>bin</BaseOutputPath>
+	<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
 	<InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
