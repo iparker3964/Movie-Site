@@ -43,7 +43,7 @@ namespace MovieProDemo.Services
                 return;
             }
             
-              var adminRole = _appSettings.MovieProSettings.DefaultCredentials.Role;
+            var adminRole = _appSettings.MovieProSettings.DefaultCredentials.Role;
             await _roleManager.CreateAsync(new IdentityRole(adminRole));
         }
         private async Task SeedUsersAsync()
