@@ -7,6 +7,7 @@ using MovieProDemo.Models.Settings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace MovieProDemo.Services
@@ -54,11 +55,14 @@ namespace MovieProDemo.Services
                 return;
             }
 
-            var credentials = _appSettings.MovieProSettings.DefaultCredentials;
-            var newUser = new IdentityUser() { Email = credentials.Email, UserName = credentials.Email,EmailConfirmed = true};
+            //var credentials = _appSettings.MovieProSettings.DefaultCredentials;
 
-            await _userManager.CreateAsync(newUser,credentials.Password);
-            await _userManager.AddToRoleAsync(newUser,credentials.Role);
+            //var newUser = new IdentityUser() { Email = credentials.Email, UserName = credentials.Email,EmailConfirmed = true};
+            var newUser = new IdentityUser() { Email = "iparker3964@yahoo.com", UserName = "iparker3964@yahoo.com", EmailConfirmed = true };
+            //await _userManager.CreateAsync(newUser,credentials.Password);
+            //await _userManager.AddToRoleAsync(newUser,credentials.Role);
+            await _userManager.CreateAsync(newUser, "Abc123$");
+            await _userManager.AddToRoleAsync(newUser,"Admin");
         }
         private async Task SeedCollections()
         {
@@ -66,11 +70,15 @@ namespace MovieProDemo.Services
             {
                 return;
             }
-
-            _dbContext.Add(new Collection(){ 
-               Name = _appSettings.MovieProSettings.DefaultCollection.Name,
-               Description = _appSettings.MovieProSettings.DefaultCollection.Description
+            _dbContext.Add(new Collection()
+            {
+                Name = "All",
+                Description = "All imported movies will automatically be assigned to the 'All' collection."
             });
+            //_dbContext.Add(new Collection(){ 
+            //   Name = _appSettings.MovieProSettings.DefaultCollection.Name,
+            //   Description = _appSettings.MovieProSettings.DefaultCollection.Description
+            //});
 
             await _dbContext.SaveChangesAsync();
         }
