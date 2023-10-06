@@ -20,50 +20,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iparker/Documents/Code/MovieProDemo/MovieProDemo/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW92aWVQcm9EZW1vXEFyZWFzXElkZW50aXR5XFBhZ2VzXF9WaWV3U3RhcnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/iparker/Documents/Code/MovieProDemo/MovieProDemo/Views/Actor/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW92aWVQcm9EZW1vXFZpZXdzXEFjdG9yXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/iparker/Documents/Code/MovieProDemo/MovieProDemo/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW92aWVQcm9EZW1vXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/iparker/Documents/Code/MovieProDemo/MovieProDemo/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW92aWVQcm9EZW1vXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/iparker/Documents/Code/MovieProDemo/MovieProDemo/Views/Movies/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW92aWVQcm9EZW1vXFZpZXdzXE1vdmllc1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/iparker/Documents/Code/MovieProDemo/MovieProDemo/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW92aWVQcm9EZW1vXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/iparker/Documents/Code/MovieProDemo/MovieProDemo/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW92aWVQcm9EZW1vXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/iparker/Documents/Code/MovieProDemo/MovieProDemo/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW92aWVQcm9EZW1vXFZpZXdzXFNoYXJlZFxfTG9naW5QYXJ0aWFsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/iparker/Documents/Code/MovieProDemo/MovieProDemo/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW92aWVQcm9EZW1vXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/iparker/Documents/Code/MovieProDemo/MovieProDemo/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW92aWVQcm9EZW1vXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/iparker/Documents/Code/MovieProDemo/MovieProDemo/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW92aWVQcm9EZW1vXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/iparker/Documents/Code/MovieProDemo/Views/Actor/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
